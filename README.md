@@ -83,31 +83,31 @@
 \UE_5.6\Templates
 ```
 
-![](../../media/Tutorial/UEFolder.png)
+![](./media/Tutorial/UEFolder.png)
 
 ---
 
 Переходим в `Templates` — здесь находятся готовые шаблоны проектов от **Epic Games**.
 
-![](../../media/Tutorial/Windows.png)
+![](./media/Tutorial/Windows.png)
 
 ---
 
 Для примера возьмём готовый проект из папки `TP_ThirdPersonBP` и скопируем её.
 
-![](../../media/Tutorial/OldFolder.png)
+![](./media/Tutorial/OldFolder.png)
 
 ---
 
 После копирования переименовываем папку, например, в `TP_ABGames`.
 
-![](../../media/Tutorial/NowFolder.png)
+![](./media/Tutorial/NowFolder.png)
 
 ---
 
 Переходим в созданную нами папку:
 
-![](../../media/Tutorial/CustomTemplates.png)
+![](./media/Tutorial/CustomTemplates.png)
 
 ---
 
@@ -115,7 +115,7 @@
 
 - В папке **Config** находится файл `TemplateDefs.ini`, в котором хранятся настройки шаблона для Unreal Engine.
 
-![](../../media/Tutorial/Config.png)
+![](./media/Tutorial/Config.png)
 
 ---
 
@@ -123,20 +123,20 @@
 
 В папке **Media** нужно заменить два изображения на свои.
 
-![](../../media/Tutorial/Media.png)
+![](./media/Tutorial/Media.png)
 
 Пример:
 
 | Тип | Изображение | Размер |
 |:----|:-------------:|:-------------:|
-| Иконка | ![TP_ThirdPersonBP](../../media/Tutorial/TP_ThirdPersonBP.png) | 256×256 |
-| Превью | ![TP_ThirdPersonBP_Preview](../../media/Tutorial/TP_ThirdPersonBP_Preview.png) | 400×200 |
+| Иконка | ![TP_ThirdPersonBP](./media/Tutorial/TP_ThirdPersonBP.png) | 256×256 |
+| Превью | ![TP_ThirdPersonBP_Preview](./media/Tutorial/TP_ThirdPersonBP_Preview.png) | 400×200 |
 
 ---
 
 ## ⚙️ Настраиваем `TemplateDefs.ini`
 
-Переходим в папку `Config` и открываем файл [`TemplateDefs.ini`](../../media/Tutorial/TemplateDefs.ini) в любом текстовом редакторе.  
+Переходим в папку `Config` и открываем файл [`TemplateDefs.ini`](./media/Tutorial/TemplateDefs.ini) в любом текстовом редакторе.  
 Заменяем содержимое на следующий шаблон:
 
 ```ini
@@ -188,15 +188,15 @@ EditDetailLevelPreference="High"
 
 Запускаем исполняемый файл `TP_ThirdPersonBP.uproject` нашего шаблона.
 
-![](../../media/Tutorial/uproject.png)
+![](./media/Tutorial/uproject.png)
 
 После открытия проекта вносим необходимые изменения, сохраняем и закрываем его.
 
-![](../../media/Tutorial/UprojectFolders.png)
+![](./media/Tutorial/UprojectFolders.png)
 
 Теперь запускаем нужную версию движка, выбираем созданный шаблон — и приступаем к разработке.
 
-![](../../media/Tutorial/UEProject.png)
+![](./media/Tutorial/UEProject.png)
 
 ---
 
